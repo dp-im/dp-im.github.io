@@ -1,0 +1,215 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>DNS Debug</title>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/frame.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/controls.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href="css/custom.css" media="screen" rel="stylesheet" type="text/css" />
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/menu.js"></script>
+  <style>
+    .menu-index {
+      color: rgb(255, 255, 255) !important;
+      opacity: 1 !important;
+      font-weight: 700 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="menu-container"></div>
+  <div class="content-container">
+    <div class="content">
+      <div class="content-table flex-column">
+        <!-------------------------------------------------------------------------------------------->
+        <!--Start Project Summary-->
+        <div class="flex-row">
+		  <div class="flex-item flex-column">
+            <h2 class="add-top-margin">CAREER: Debugging the Fragmented DNS Infrastructure at Scale</h2>
+            <hr>
+			<h3>Summary</h3>
+            <p class="text">
+			<img class="image image-wrap-text max-width-140" src="img/debug.png">
+Domain Name System (DNS) is one of the most critical Internet infrastructures. It underpins nearly every Internet activity, translating user-friendly names like www.google.com to computer-friendly IP addresses. Though designed as a highly reliable infrastructure in its blueprint, DNS failures are not rare, sometimes even leading to the network outage of a country. Debugging DNS failures is undoubtedly important but also challenging. Though DNS can be seen as a distributed system, it is open-ended and fragmented, containing numerous service providers and being interfered by powerful network adversaries. Though the basic logic of DNS is conceptually simple, its implementation is highly customized on the client-side devices and DNS bugs can be caused by the complex interactions between code and non-code resources. These unique settings make DNS failures and bugs complex and difficult to be diagnosed. This project is to develop novel platforms, techniques, and tools to enable holistic debugging for the DNS Infrastructure, through two research thrusts: debugging DNS failures at the network layer, and debugging client-side DNS bugs at the software layer. 
+
+            </p>
+          </div>
+        </div>
+        <!--End Project Summary-->
+        <!-------------------------------------------------------------------------------------------->		
+		<!--Start Support-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Support</h2>
+            <hr>
+			<ul>
+              <li><a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2047476&HistoricalAwards=false"> NSF CNS-2047476.</a></li>
+            </ul>
+          </div>
+        </div>
+        <!--End Support-->
+        <!-------------------------------------------------------------------------------------------->				
+        <!--Start People-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">People</h2>
+            <hr>            
+            <ul>
+              <li>Zhou Li. PI on this project, project leader and professor (UCI EECS). </li>
+			  <li>Joann Qiongna Chen. Student Researcher (UCI EECS).</li>
+			  <li>Jiacen Xu. Student Researcher (UCI EECS).</li>
+			  <li>Qifan Zhang. Student Researcher (UCI EECS).</li>
+            </ul>
+          </div>
+        </div>
+        <!--End People-->
+        <!-------------------------------------------------------------------------------------------->					
+		<!--Project Timeline-->
+		<!--
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Project Timeline</h2>
+            <hr>
+			<div class="custom-table-container center add-top-margin-small">
+              <table class="custom-table">
+                <thead>
+                  <tr class="bg-color-gray">
+                    <th class="text-center">Task</th>
+                    <th class="text-center">Projected Year</th>
+                    <th class="text-center">Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="text-center">Create and open a project web site.</td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">done</td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Set up a GitHub repo for Maestro and release part of code.</td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">ongoing</td>
+                  </tr>
+                  <tr>
+                    <td class="text-center">Create the user interface of Maestro. </td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">done</td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Implement the attacks against text data.</td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">done</td>	
+                  </tr>					
+                  <tr>
+                    <td class="text-center">Implement the attacks against image data. </td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">ongoing</td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Implement the attacks against cyber-security applications.</td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">done</td>	
+                  </tr>		
+                  <tr>
+                    <td class="text-center">Implement the defenses. </td>
+                    <td class="text-center">Year 1</td>
+                    <td class="text-center">ongoing</td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Create the course sylabus for a project-based course CS 175 at UCI.</td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>	
+                  </tr>					  
+                  <tr>				  
+                    <td class="text-center">Teach CS 175 at UCI. </td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Collect and evaluate students feedback of CS 175.</td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>
+                  </tr>
+                  <tr>				  
+                    <td class="text-center">Release the full Maestro repo to public with documentation. </td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Submit papers about Maestro (platform, education, etc.).</td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>
+                  </tr>			
+                  <tr>				  
+                    <td class="text-center">Attend SaTC PI meeting. </td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>
+                  </tr>
+                  <tr class="bg-color-light-gray">
+                    <td class="text-center">Give tutorials at conferences/workshops.</td>
+                    <td class="text-center">Year 2</td>
+                    <td class="text-center"></td>
+                  </tr>					  
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>-->
+        <!--End Project Timeline-->
+        <!-------------------------------------------------------------------------------------------->					
+		<!--Start Publications-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Publications</h2>
+            <hr>
+            <p class="text">
+				<li><strong><span style="color: #993300;">[EuroS&amp;P'22] </span></strong><span style="color: #993300;"><span style="color: #000000;">Deliang Chang</span></span><span style="color: #993300;"><span style="color: #000000;">, Joann Qiongna Chen, <strong>Zhou Li</strong> and Xing Li.
+</span></span><span style="color: #993300;"><a href="https://faculty.sites.uci.edu/zhouli/files/2022/04/eurosp22.pdf">Hide and Seek: Revisiting DNS-based User Tracking.</a>
+<span style="color: #000000;">Accepted by 7th IEEE European Symposium on Security and Privacy, June, 2022.
+</span></span><span style="color: #000000;"></span></li>				
+<li><strong><span style="color: #993300;">[CCS'21a] </span></strong><span style="color: #000000;">Tianhao Wang, Joann Qiongna Chen, Zhikun Zhang, Dong Su, Yueqiang Cheng, <strong>Zhou Li</strong>, Ninghui Li, and Somesh Jha.</span><strong><span style="color: #993300;">
+</span></strong><a href="https://faculty.sites.uci.edu/zhouli/files/2021/10/ccs21a.pdf">Continuous Release of Data Streams under both Centralized and Local Differential Privacy.</a>
+In Proceedings of the 28th ACM Conference on Computer and Communications Security, virtual, November, 2021. </li>
+<li><strong><span style="color: #993300;">[SRDS'21] </span></strong><span style="color: #000000;">Rebekah Houser, Shuai Hao, <strong>Zhou Li</strong>, Daiping Liu, Chase Cotton, and Haining Wang.</span><strong><span style="color: #993300;">
+</span></strong><a href="https://faculty.sites.uci.edu/zhouli/files/2021/10/srds21.pdf">A Comprehensive Measurement-based Investigation of DNS Hijacking.</a>
+In Proceedings of the 40th International Symposium on Reliable Distributed Systems, virtual, September, 2021.</li>
+
+            </p>
+          </div>
+        </div>
+        <!--End Publications-->
+        <!-------------------------------------------------------------------------------------------->	
+		<!--Start Software-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Software and Datasets</h2>
+            <hr>
+			<li>Code and dataset for <a href="https://github.com/dp-cont/dp-cont">[CCS'21a]</a>, including DNS</li>
+            <li>Code and dataset for <a href="https://github.com/dl-chang/ldpresolve">[EuroS&amp;P'22]</a></li>
+          </div>
+        </div>
+        <!--End Software-->
+        <!-------------------------------------------------------------------------------------------->		
+		<!--Start Datasets-->
+        <div class="flex-row">
+          <div class="flex-item flex-column">
+            <h2 class="add-top-margin">Outreach</h2>
+            <hr>
+            <p class="text">
+				To be updated.
+            </p>
+          </div>
+        </div>
+        <!--End Datasets-->
+        <!-------------------------------------------------------------------------------------------->			
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
